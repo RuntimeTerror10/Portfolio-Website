@@ -3,7 +3,7 @@ body {
 }
 .wrapper {
   width: 100%;
-  height: 98vh;
+  height: 100%;
 }
 .container {
   width: 100%;
@@ -305,10 +305,12 @@ body {
   .avatar-container {
     margin-bottom: 10px;
   }
+  .wrapper {
+    padding-top: 10px;
+  }
   .container {
     align-items: unset;
     height: auto;
-    margin-top: 10px;
   }
   .btn {
     font-size: 0.9rem;
