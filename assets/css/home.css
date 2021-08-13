@@ -299,15 +299,15 @@ body {
   #art,
   #art2,
   #art3 {
-    transform: scale(0.7);
+    transform: scale(0.6);
+    margin-top: -10px;
   }
   .avatar-container {
     margin-bottom: 10px;
   }
   .container {
-    align-items: flex-start;
+    align-items: unset;
     height: auto;
-    margin-top: -30px;
   }
   .btn {
     font-size: 0.9rem;
