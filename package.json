@@ -19,5 +19,8 @@
   "homepage": "https://github.com/RuntimeTerror10/Portfolio-Website#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "typed.js": "^2.0.12"
   }
 }
