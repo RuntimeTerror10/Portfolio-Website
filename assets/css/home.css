@@ -307,7 +307,7 @@ body {
   .container {
     align-items: flex-start;
     height: auto;
-    margin-top: 50px;
+    margin-top: -30px;
   }
   .btn {
     font-size: 0.9rem;
