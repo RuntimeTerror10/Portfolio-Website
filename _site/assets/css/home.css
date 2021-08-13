@@ -308,6 +308,7 @@ body {
   .container {
     align-items: unset;
     height: auto;
+    margin-top: 15px;
   }
   .btn {
     font-size: 0.9rem;
