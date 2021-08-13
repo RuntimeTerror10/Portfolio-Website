@@ -308,10 +308,10 @@ body {
   .container {
     align-items: unset;
     height: auto;
-    margin-top: 15px;
+    margin-top: 10px;
   }
   .btn {
     font-size: 0.9rem;
-    margin-top: 70px;
+    margin-top: 60px;
   }
 }
