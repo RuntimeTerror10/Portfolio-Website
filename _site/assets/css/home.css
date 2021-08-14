@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -40px;
+  margin-top: -60px;
 }
 #art {
   width: 266px;
@@ -313,6 +313,7 @@ body {
   .container {
     align-items: unset;
     height: auto;
+    margin-top: -40px;
   }
   .btn {
     font-size: 0.9rem;
