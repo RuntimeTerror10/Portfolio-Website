@@ -308,12 +308,11 @@ body {
   }
   .wrapper {
     height: 100%;
-    padding-top: 10px;
+    padding-top: 30px;
   }
   .container {
     align-items: unset;
     height: auto;
-    margin-top: -40px;
   }
   .btn {
     font-size: 0.9rem;
