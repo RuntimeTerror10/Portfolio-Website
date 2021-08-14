@@ -146,7 +146,7 @@ body {
 .speaking-animation {
   animation-name: speak;
   animation-duration: 0.4s;
-  animation-iteration-count: 16;
+  animation-iteration-count: 18;
 }
 
 @keyframes speak {
@@ -167,6 +167,9 @@ body {
 #art3 {
   width: 266px;
   height: 266px;
+  position: absolute;
+  top: 0;
+  z-index: 3;
 }
 
 #art3:after {
@@ -249,11 +252,6 @@ body {
   margin-bottom: 80px;
 }
 
-#art3 {
-  position: absolute;
-  top: 0;
-  z-index: -2;
-}
 .link-wrapper {
   display: flex;
   justify-content: center;
