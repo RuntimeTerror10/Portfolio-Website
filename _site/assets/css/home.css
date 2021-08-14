@@ -254,12 +254,15 @@ body {
   top: 0;
   z-index: -2;
 }
+.link-wrapper {
+  display: flex;
+  justify-content: center;
+}
 .btn {
-  display: block;
-  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
   opacity: 0;
   font-family: "Press Start 2P";
-  background: transparent;
   color: #ffff;
   border: 2px solid #ffff;
   border-radius: 8px;
