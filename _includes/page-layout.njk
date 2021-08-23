@@ -1,10 +1,13 @@
+---
+title: Parth :)
+---
 
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parth :)</title>
+    <title>{{ title }}</title>
     <link rel="stylesheet" href="/assets/css/comm.css"/>
     <link rel="stylesheet" href="/assets/css/page.css"/>
   </head>
@@ -25,20 +28,8 @@
       </div>
     </div>
 </div>
- <!-- <nav>
-  <ul>
-    
-      <li><a href="/">Home</a></li>
-    
-      <li><a href="/projects">Projects</a></li>
-    
-      <li><a href="/blog">Blog</a></li>
-    
-      <li><a href="/me">Me</a></li>
-    
-  </ul>
-</nav> -->
-      
+ <!-- {% include "home-header.njk" %} -->
+    {{ content | safe }}  
   </body>
 </html>
 

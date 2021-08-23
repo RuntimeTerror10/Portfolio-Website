@@ -4,3 +4,12 @@
   font-weight: 400;
   src: url("/assets/PressStart2P-Regular.ttf") format("truetype");
 }
+body {
+  background: #191919;
+}
+.retro-font-style {
+  font-family: "Press Start 2P";
+}
+.remove-text-decoration {
+  text-decoration: none;
+}
