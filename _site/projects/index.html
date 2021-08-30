@@ -5,8 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parth :)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="/assets/css/comm.css"/>
     <link rel="stylesheet" href="/assets/css/page.css"/>
+    <link rel="stylesheet" href="/assets/css/me.css"/>
   </head>
   <body>
   <div class="container">
@@ -14,31 +23,43 @@
       <div class="nav-title-container">
         <a class="retro-font-style nav-title remove-text-decoration" href="/">{Parth}</a>
       </div> 
-    <div class="nav-links-container">
-      <a class="remove-text-decoration nav-link retro-font-style" href="/">Home</a>
-      <a class="remove-text-decoration nav-link retro-font-style" href="/me">Me</a>
-      <a class="remove-text-decoration nav-link retro-font-style" href="/projects">Projects</a>
-      <a class="remove-text-decoration nav-link retro-font-style" href="/blog">Blog</a>
-    </div>
+ <nav class="nav">
+<ul class="link-list">
+    
+      <li><a class="remove-text-decoration nav-link retro-font-style" href="/projects">Projects</a></li>
+    
+      <li><a class="remove-text-decoration nav-link retro-font-style" href="/blog">Blog</a></li>
+    
+      <li><a class="remove-text-decoration nav-link retro-font-style" href="/contact">Contact</a></li>
+    
+      <li><a class="remove-text-decoration nav-link retro-font-style" href="/me">Me</a></li>
+    
+  
+</ul>
+</nav>
       <div class="menu-btn">
           <div class="menu-btn-burger"></div>
       </div>
     </div>
 </div>
- <!-- <nav>
-  <ul>
-    
-      <li><a href="/">Home</a></li>
-    
-      <li><a href="/projects">Projects</a></li>
-    
-      <li><a href="/blog">Blog</a></li>
-    
-      <li><a href="/me">Me</a></li>
-    
-  </ul>
-</nav> -->
       
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+      var swiper = new Swiper(".mySwiper", {
+        direction: "vertical",
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>
 

@@ -5,28 +5,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parth :)</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="/assets/css/comm.css">
     <link rel="stylesheet" href="/assets/css/home.css">
   </head>
   <body>
- <!-- <nav>
-  <ul>
+ <!-- <nav class="nav">
+<ul class="link-list">
     
-      <li><a href="/">Home</a></li>
+      <li><a class="remove-text-decoration nav-link retro-font-style" href="/projects">Projects</a></li>
     
-      <li><a href="/projects">Projects</a></li>
+      <li><a class="remove-text-decoration nav-link retro-font-style" href="/blog">Blog</a></li>
     
-      <li><a href="/blog">Blog</a></li>
+      <li><a class="remove-text-decoration nav-link retro-font-style" href="/contact">Contact</a></li>
     
-      <li><a href="/me">Me</a></li>
+      <li><a class="remove-text-decoration nav-link retro-font-style" href="/me">Me</a></li>
     
-  </ul>
+  
+</ul>
 </nav> -->
     
 <div class="wrapper">
   <div class="container">
     <div class="header-container">
-      <div class="avatar-container">
+      <div data-aos="zoom-in" class="avatar-container">
         <div id="art"></div>
         <div id="art2" class="speaking-animation"></div>
         <div id="art3"></div>
@@ -42,7 +44,11 @@
     <a href="/me" class="btn">Know more</a>
   </div>
 </div>
-   
+
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="/scripts/avatar-speaking.js"></script>
   <script>
