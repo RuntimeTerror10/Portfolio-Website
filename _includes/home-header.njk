@@ -1,7 +1,8 @@
-<nav>
-  <ul>
+<nav class="nav">
+<ul class="link-list">
     {% for item in nav %}
-      <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+      <li><a class="remove-text-decoration nav-link retro-font-style" href="{{ item.url }}">{{ item.label }}</a></li>
     {% endfor %}
-  </ul>
+  
+</ul>
 </nav>
