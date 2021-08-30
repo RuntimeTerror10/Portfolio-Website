@@ -5,11 +5,19 @@
   src: url("/assets/PressStart2P-Regular.ttf") format("truetype");
 }
 body {
-  background: #191919;
+  background: #202020;
+  overflow-x: hidden;
 }
 .retro-font-style {
   font-family: "Press Start 2P";
 }
 .remove-text-decoration {
   text-decoration: none;
+}
+.type,
+.type2,
+.type3 {
+  color: white;
+  font-family: "Press Start 2P";
+  font-size: 2rem;
 }
