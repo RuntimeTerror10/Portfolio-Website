@@ -320,7 +320,6 @@
   text-align: center;
   font-size: 1.3rem;
   font-family: "Press Start 2P";
-  padding: 0 5px;
   padding-right: 30px;
   background: #202020;
   color: #fff;
@@ -341,10 +340,9 @@
   align-items: center;
 }
 .swiper-slide p {
-  padding: 0 20px;
+  padding: 5px;
   line-height: 35px;
   letter-spacing: 0.5mm;
-  padding-right: 25px;
 }
 .emoji {
   font-size: 2rem;
@@ -425,7 +423,7 @@
 }
 @media (max-width: 768px) {
   .about-me-container {
-    height: 65vh;
+    height: 60vh;
   }
 
   .swiper-slide p {
