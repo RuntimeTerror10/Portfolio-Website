@@ -8,9 +8,6 @@ title: Parth :)
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
      <link
       rel="stylesheet"
@@ -37,20 +34,19 @@ title: Parth :)
   <script>
     AOS.init();
   </script>
-  <script src="/scripts/menu.js"></script>
-      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script>
-      var swiper = new Swiper(".mySwiper", {
-        direction: "vertical",
-        slidesPerView: 1,
-        spaceBetween: 30,
-        mousewheel: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
-    </script>
+  var instruct = new Typed(".instruct", {
+    strings: ["Swipe up/down to know more"],
+    typeSpeed: 60,
+    startDelay: 1000,
+    backspeed: 0,
+    smartBackspace: false,
+    loop: false,
+    showCursor: false,
+  });
+</script>
+<script src="../scripts/menu.js"></script>
   </body>
 </html>
 
