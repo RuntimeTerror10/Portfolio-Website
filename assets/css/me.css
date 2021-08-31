@@ -425,11 +425,11 @@
 }
 @media (max-width: 768px) {
   .about-me-container {
-    height: 50vh;
+    height: 65vh;
   }
 
   .swiper-slide p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .swiper {
     width: 100%;
