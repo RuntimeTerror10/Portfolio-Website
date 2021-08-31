@@ -509,9 +509,12 @@
   }
 }
 
-@media (max-width: 424px) {
+@media (max-width: 435px) {
   .swiper-slide p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+  }
+  .instruct {
+    font-size: 0.75rem;
   }
 }
 .instruct {

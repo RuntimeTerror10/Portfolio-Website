@@ -100,6 +100,7 @@ ul li {
 @media (max-width: 768px) {
   .menu-btn {
     display: block;
+    z-index: 5;
   }
   .nav {
     position: fixed;
@@ -114,6 +115,7 @@ ul li {
     justify-content: center;
     align-items: center;
     transition: 0.2s ease-in-out;
+    z-index: 4;
   }
   .link-list {
     display: flex;
