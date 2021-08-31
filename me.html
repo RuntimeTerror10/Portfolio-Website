@@ -18,9 +18,12 @@ title: About Parth
     </p>
   </div>
 -->
-  <div data-aos="zoom-in" data-aos-once="true" class="goggle-avatar-div">
+  <div data-aos="zoom-in" data-aos-once="true" class="goggle-avatar">
     <div id="art4"></div>
+    <div id="art5"></div>
+    <div id="art6" class="instruction"></div>
   </div>
+  <div class="instruct"></div>
   <div data-aos="fade-up" class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
@@ -58,3 +61,17 @@ title: About Parth
     <div class="swiper-pagination"></div>
   </div>
 </div>
+<script src="/scripts/avatar-instruct.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    direction: "vertical",
+    slidesPerView: 1,
+    spaceBetween: 30,
+    mousewheel: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+</script>
