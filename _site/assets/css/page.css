@@ -28,7 +28,7 @@ ul li {
   display: flex;
   justify-content: space-between;
   position: fixed;
-  top: 10px;
+  top: 15px;
   left: 10px;
   right: 10px;
   background: #202020;
@@ -58,7 +58,7 @@ ul li {
   cursor: pointer;
   transition: all 0.25s ease-in-out;
   margin-top: 18px;
-  top: 10px;
+  top: 7px;
   right: 20px;
   display: none;
 }
@@ -130,9 +130,12 @@ ul li {
 }
 @media (max-width: 510px) {
   .link-list li a {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .link-list {
     padding-left: 0;
+  }
+  .nav-title {
+    font-size: 1.7rem;
   }
 }
