@@ -299,26 +299,21 @@
 
 .about-me-container {
   height: 70vh;
+  width: 100%;
   margin-top: 20px;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   transition: 0.2s ease-in-out;
 }
-.about-text {
-  color: #fff;
-  text-align: center;
-  max-width: 700px;
-  font-family: "M Plus Rounded 1c", sans-serif;
-  font-size: 1.3rem;
-}
+
 .swiper {
-  max-width: 1000px;
   width: 80%;
   height: 100%;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.507) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.589) 0px 18px 36px -18px inset;
+  border: 2px solid #202020;
 }
 
 .swiper-slide {
@@ -327,13 +322,12 @@
   font-family: "Press Start 2P";
   padding: 0 5px;
   padding-right: 30px;
-  background: #191919;
+  background: #202020;
   color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.76) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.589) 0px 18px 36px -18px inset;
+  box-shadow: rgba(0, 0, 0, 0.63) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.637) 0px 18px 36px -18px inset;
   /* Center slide text vertically */
   display: -webkit-box;
-  line-height: 35px;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -351,4 +345,7 @@
   line-height: 35px;
   letter-spacing: 0.5mm;
   padding-right: 25px;
+}
+.emoji {
+  font-size: 2rem;
 }
