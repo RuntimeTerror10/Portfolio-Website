@@ -298,7 +298,7 @@
 }
 
 .about-me-container {
-  height: 80vh;
+  height: 75vh;
   width: 100%;
   margin-top: 35px;
   display: flex;
@@ -417,8 +417,8 @@
     width: 98%;
   }
   .about-me-container {
-    height: 60vh;
-    margin-top: 70px;
+    height: 70vh;
+    margin-top: 60px;
   }
 }
 @media (max-width: 768px) {
