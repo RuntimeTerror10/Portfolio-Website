@@ -99,7 +99,8 @@
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  margin-bottom: 90px;
+  opacity: 0;
+  transition: 0.25s ease-in-out;
 }
 .link-svg {
   width: 40px;
