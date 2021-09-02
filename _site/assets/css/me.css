@@ -11,6 +11,9 @@
   align-self: center;
   transition: 0.2s ease-in-out;
 }
+.emoji {
+  font-size: 1.7rem;
+}
 #art4 {
   width: 336px;
   height: 336px;
@@ -182,6 +185,7 @@
   }
   .about-text {
     font-size: 0.7rem;
+    text-align: left;
   }
   .link-svg {
     width: 27px;
