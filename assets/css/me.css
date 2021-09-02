@@ -79,10 +79,9 @@
     216px 24px #3e2718, 240px 24px #3e2718, 264px 24px #3e2718,
     240px 0px #3e2718, 264px 0px #3e2718;
 }
-
 .about-me-container {
   width: 100%;
-  margin-top: 45px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,7 +98,8 @@
 .social-container {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 .link-svg {
   width: 40px;
@@ -183,8 +183,11 @@
       102px 187px #080503, 119px 187px #080503, 136px 187px #080503,
       136px 170px #080503;
   }
+  .about-me-container {
+    margin-top: 40px;
+  }
   .about-text {
-    font-size: 0.65rem;
+    font-size: 0.68rem;
     text-align: left;
   }
   .link-svg {
