@@ -1,6 +1,7 @@
 .emoji {
   font-size: 1.7rem;
 }
+
 #art4 {
   width: 336px;
   height: 336px;
@@ -68,7 +69,7 @@
 }
 .about-me-container {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,10 +87,11 @@
 }
 .about-text {
   color: #fff;
-  font-size: 1.55rem;
+  font-size: 1.6rem;
   font-family: "Roboto";
   text-align: center;
   max-width: 1200px;
+  margin: 8px 0;
 }
 .social-container {
   display: flex;
