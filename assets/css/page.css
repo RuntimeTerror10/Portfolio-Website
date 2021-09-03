@@ -130,6 +130,7 @@ ul li {
   .link-list li a {
     font-size: 2.5rem;
     color: #fff;
+    margin: 0;
   }
 }
 @media (max-width: 510px) {
