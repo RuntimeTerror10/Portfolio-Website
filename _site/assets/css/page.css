@@ -3,17 +3,21 @@
   color: #fff;
 }
 .nav-title {
-  font-size: 2.3rem;
+  font-size: 3.4rem;
   color: #fff;
   border-radius: 5px;
   padding: 0.1em 0.1em;
+  letter-spacing: 0.5mm;
   margin-left: -5px;
+  font-family: "Fira Sans Bold";
 }
 .nav-title-container {
   align-self: center;
 }
 .nav-link {
-  font-size: 1.1rem;
+  font-size: 1.7rem;
+  font-family: "Fira Sans Bold";
+  letter-spacing: 0.4mm;
 }
 ul li {
   list-style: none;
@@ -99,10 +103,13 @@ ul li {
   transform: rotate(-45deg) translate(45px, 45px);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   .menu-btn {
     display: block;
     z-index: 5;
+  }
+  .nav-title {
+    font-size: 2.8rem;
   }
   .nav {
     position: fixed;
@@ -127,10 +134,11 @@ ul li {
     text-align: center;
     margin: 35px 0;
   }
-  .link-list li a {
-    font-size: 2.5rem;
+  .nav-link {
+    font-size: 2.8rem;
     color: #fff;
     margin: 0;
+    letter-spacing: 0.6mm;
   }
 }
 @media (max-width: 510px) {

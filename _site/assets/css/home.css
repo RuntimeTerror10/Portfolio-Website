@@ -232,9 +232,9 @@ body {
 .type2,
 .type3 {
   color: white;
-  font-family: "Press Start 2P";
-  font-size: 2rem;
-  line-height: 1.8;
+  font-family: "Fira Sans Bold";
+  font-size: 2.8rem;
+  letter-spacing: 0.8mm;
   text-align: center;
 }
 .type2,
@@ -249,7 +249,7 @@ body {
 
 .avatar-container {
   position: relative;
-  margin-bottom: 80px;
+  margin-bottom: 65px;
 }
 
 .link-wrapper {
@@ -260,13 +260,13 @@ body {
   text-decoration: none;
   text-align: center;
   opacity: 0;
-  font-family: "Press Start 2P";
+  font-family: "Fira Sans Bold";
   color: #ffff;
   border: 2px solid #ffff;
   border-radius: 8px;
-  padding: 10px 15px;
+  padding: 10px 25px;
   margin-top: -30px;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   cursor: pointer;
   transition: all 0.25s ease-in-out;
 }
@@ -289,14 +289,14 @@ body {
     margin-bottom: 30px;
   }
   .btn {
-    font-size: 1.2rem;
+    font-size: 1.35rem;
   }
 }
 @media (max-width: 425px) {
   .type,
   .type2,
   .type3 {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   #art,
   #art2,
@@ -317,7 +317,7 @@ body {
     height: auto;
   }
   .btn {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     margin-top: 60px;
   }
 }
