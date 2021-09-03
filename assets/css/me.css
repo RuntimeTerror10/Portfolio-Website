@@ -117,7 +117,75 @@
 .link-svg {
   fill: #fff;
 }
-@media (max-width: 580px) {
+@media (max-width: 768px) {
+  #art4 {
+    width: 280px;
+    height: 280px;
+  }
+
+  #art4:after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    box-shadow: 80px 260px #ffd5a6, 100px 260px #ffd5a6, 120px 260px #ffd5a6,
+      140px 260px #ffd5a6, 160px 260px #ffd5a6, 160px 240px #ffd5a6,
+      180px 240px #ffd5a6, 200px 240px #ffd5a6, 200px 220px #ffd5a6,
+      200px 200px #ffd5a6, 200px 180px #ffd5a6, 80px 240px #ffd5a6,
+      60px 240px #ffd5a6, 40px 240px #ffd5a6, 40px 220px #ffd5a6,
+      40px 200px #ffd5a6, 40px 180px #ffd5a6, 20px 180px #ffd5a6,
+      20px 160px #ffd5a6, 220px 180px #ffd5a6, 220px 160px #ffd5a6,
+      40px 160px #ffd5a6, 140px 120px #ffd5a6, 160px 120px #ffd5a6,
+      60px 180px #ffd5a6, 60px 200px #ffd5a6, 80px 200px #ffd5a6,
+      60px 220px #ffd5a6, 80px 180px #ffd5a6, 80px 220px #ffd5a6,
+      100px 240px #ffd5a6, 100px 200px #ffd5a6, 100px 180px #ffd5a6,
+      120px 160px #ffd5a6, 120px 180px #ffd5a6, 120px 200px #ffd5a6,
+      120px 240px #ffd5a6, 140px 240px #ffd5a6, 140px 200px #ffd5a6,
+      160px 180px #ffd5a6, 140px 180px #ffd5a6, 180px 220px #ffd5a6,
+      180px 200px #ffd5a6, 180px 180px #ffd5a6, 200px 160px #ffd5a6,
+      120px 100px #ffd5a6, 140px 100px #ffd5a6, 80px 120px #ffd5a6,
+      0px 200px #3e2718, 20px 220px #3e2718, 20px 200px #3e2718,
+      0px 180px #3e2718, 0px 160px #3e2718, 0px 140px #3e2718, 0px 120px #3e2718,
+      0px 100px #3e2718, 20px 100px #3e2718, 20px 80px #3e2718,
+      40px 80px #3e2718, 60px 80px #3e2718, 80px 80px #3e2718,
+      100px 80px #3e2718, 120px 80px #3e2718, 140px 80px #3e2718,
+      160px 80px #3e2718, 180px 80px #3e2718, 200px 80px #3e2718,
+      220px 80px #3e2718, 220px 100px #3e2718, 240px 100px #3e2718,
+      240px 120px #3e2718, 240px 140px #3e2718, 240px 160px #3e2718,
+      240px 180px #3e2718, 240px 200px #3e2718, 220px 200px #3e2718,
+      220px 220px #3e2718, 0px 80px #3e2718, 20px 60px #3e2718,
+      20px 40px #3e2718, 20px 120px #080503, 20px 140px #080503,
+      40px 140px #080503, 60px 140px #080503, 80px 140px #080503,
+      100px 140px #080503, 120px 140px #080503, 140px 140px #080503,
+      160px 140px #080503, 180px 140px #080503, 200px 140px #080503,
+      220px 140px #080503, 220px 120px #080503, 60px 160px #080503,
+      80px 160px #080503, 100px 160px #080503, 140px 160px #080503,
+      160px 160px #080503, 180px 160px #080503, 40px 100px #3e2718,
+      40px 120px #3e2718, 60px 120px #3e2718, 60px 100px #3e2718,
+      80px 100px #3e2718, 100px 100px #3e2718, 100px 120px #3e2718,
+      120px 120px #3e2718, 160px 100px #3e2718, 180px 100px #3e2718,
+      200px 120px #ffd5a6, 200px 100px #ffd5a6, 180px 120px #3e2718,
+      40px 20px #3e2718, 40px 40px #3e2718, 40px 60px #3e2718, 60px 20px #3e2718,
+      60px 40px #3e2718, 60px 60px #3e2718, 80px 60px #3e2718, 80px 40px #3e2718,
+      80px 20px #3e2718, 80px 0px #3e2718, 100px 0px #3e2718, 120px 0px #3e2718,
+      140px 0px #3e2718, 160px 0px #3e2718, 180px 0px #3e2718, 200px 0px #3e2718,
+      220px 60px #3e2718, 220px 40px #3e2718, 220px 20px #3e2718,
+      200px 20px #3e2718, 180px 20px #3e2718, 160px 20px #3e2718,
+      140px 20px #3e2718, 120px 20px #3e2718, 100px 20px #3e2718,
+      100px 40px #3e2718, 120px 40px #3e2718, 140px 40px #3e2718,
+      220px 0px #3e2718, 200px 40px #3e2718, 200px 60px #3e2718,
+      180px 60px #3e2718, 160px 60px #3e2718, 140px 60px #3e2718,
+      120px 60px #3e2718, 100px 60px #3e2718, 160px 40px #3e2718,
+      180px 40px #3e2718, 240px 80px #3e2718, 240px 60px #3e2718,
+      100px 220px #080503, 120px 220px #080503, 140px 220px #080503,
+      160px 220px #080503, 160px 200px #080503;
+  }
+  .about-text {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 560px) {
   #art4 {
     width: 238px;
     height: 238px;
@@ -193,5 +261,8 @@
     width: 27px;
     height: 27px;
     margin: 0 13px;
+  }
+  .emoji {
+    font-size: 1.3rem;
   }
 }
