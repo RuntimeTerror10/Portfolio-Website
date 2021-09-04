@@ -15,7 +15,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 #art {
   width: 266px;
@@ -308,7 +307,7 @@ body {
     transform: scale(0.6);
   }
   .avatar-container {
-    margin-top: -65px;
+    margin-top: -105px;
   }
   .btn {
     font-size: 1.1rem;
