@@ -288,9 +288,6 @@ body {
   .btn {
     font-size: 1.55rem;
   }
-  .container {
-    margin-top: -20px;
-  }
 }
 @media (max-width: 562px) {
   .type,
@@ -315,13 +312,5 @@ body {
   }
   .avatar-text {
     margin-top: -10px;
-  }
-  .container {
-    margin-top: -60px;
-  }
-}
-@media (max-width: 375px) {
-  .container {
-    margin-top: -30px;
   }
 }
