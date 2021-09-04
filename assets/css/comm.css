@@ -14,6 +14,10 @@
   font-family: "Roboto Bold";
   src: url("/assets/Roboto-Bold.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Roboto Medium";
+  src: url("/assets/Roboto-Medium.ttf") format("truetype");
+}
 body {
   background: #202020;
   overflow-x: hidden;
