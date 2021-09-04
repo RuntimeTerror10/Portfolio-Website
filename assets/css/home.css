@@ -310,3 +310,8 @@ body {
     margin-top: -60px;
   }
 }
+@media (max-width: 375px) {
+  .container {
+    margin-top: -30px;
+  }
+}
