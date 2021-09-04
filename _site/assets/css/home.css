@@ -278,7 +278,7 @@ body {
   .type,
   .type2,
   .type3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   #art,
   #art2,
@@ -288,12 +288,15 @@ body {
   .btn {
     font-size: 1.55rem;
   }
+  .container {
+    margin-top: -20px;
+  }
 }
-@media (max-width: 445px) {
+@media (max-width: 455px) {
   .type,
   .type2,
   .type3 {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
   }
   #art,
   #art2,
