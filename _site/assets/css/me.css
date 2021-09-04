@@ -272,7 +272,7 @@
     font-size: 1.2rem;
   }
 }
-@media (max-width: 385px) {
+@media (max-width: 375px) {
   .social-container {
     margin-top: 10px;
   }
