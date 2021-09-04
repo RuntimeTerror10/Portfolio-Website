@@ -480,9 +480,6 @@ body {
   .btn {
     font-size: 1.55rem;
   }
-  .header-container {
-    margin-top: -20px;
-  }
 }
 @media (max-width: 562px) {
   .type,
@@ -492,6 +489,10 @@ body {
   }
 }
 @media (max-width: 465px) {
+  .container {
+    height: 95vh;
+  }
+
   .type,
   .type2,
   .type3 {
