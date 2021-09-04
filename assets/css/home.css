@@ -240,6 +240,7 @@ body {
   margin-top: 25px;
 }
 .header-container {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -287,9 +288,6 @@ body {
   }
   .btn {
     font-size: 1.55rem;
-  }
-  .header-container {
-    margin-top: -80px;
   }
 }
 @media (max-width: 562px) {
