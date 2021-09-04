@@ -278,7 +278,7 @@ body {
   .type,
   .type2,
   .type3 {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
   #art,
   #art2,
@@ -292,11 +292,18 @@ body {
     margin-top: -20px;
   }
 }
-@media (max-width: 455px) {
+@media (max-width: 562px) {
   .type,
   .type2,
   .type3 {
-    font-size: 1.35rem;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 465px) {
+  .type,
+  .type2,
+  .type3 {
+    font-size: 1.6rem;
   }
   #art,
   #art2,
