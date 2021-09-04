@@ -63,8 +63,8 @@ ul li {
   position: fixed;
   cursor: pointer;
   transition: all 0.25s ease-in-out;
-  top: 30px;
-  right: 10px;
+  top: 25px;
+  right: 15px;
   display: none;
 }
 .menu-btn-burger {
