@@ -289,7 +289,7 @@ body {
     font-size: 1.55rem;
   }
   .header-container {
-    margin-top: -50px;
+    margin-top: -80px;
   }
 }
 @media (max-width: 562px) {
@@ -315,8 +315,5 @@ body {
   }
   .avatar-text {
     margin-top: -10px;
-  }
-  .header-container {
-    margin-top: -80px;
   }
 }
