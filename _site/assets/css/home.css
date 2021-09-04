@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 .container {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -243,7 +243,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -60px;
 }
 
 .avatar-container {
@@ -289,6 +288,9 @@ body {
   .btn {
     font-size: 1.55rem;
   }
+  .header-container {
+    margin-top: -50px;
+  }
 }
 @media (max-width: 562px) {
   .type,
@@ -313,5 +315,8 @@ body {
   }
   .avatar-text {
     margin-top: -10px;
+  }
+  .header-container {
+    margin-top: -60px;
   }
 }
