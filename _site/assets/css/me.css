@@ -86,7 +86,7 @@
   transition: 0.25s ease-in-out;
 }
 .about-text {
-  color: #fff;
+  color: var(--sec-color);
   font-size: 1.6rem;
   font-family: "Roboto Medium";
   text-align: center;
@@ -106,17 +106,17 @@
   height: 40px;
   margin: 0 20px;
   padding: 10px;
-  border: 2px solid #fff;
+  border: 2px solid var(--sec-color);
   border-radius: 50%;
   transition: 0.25s ease-in-out;
 }
 .link-svg:hover {
-  fill: #202020;
-  background: #fff;
+  fill: var(--prim-color);
+  background: var(--sec-color);
 }
 
 .link-svg {
-  fill: #fff;
+  fill: var(--sec-color);
 }
 @media (max-width: 980px) {
   .about-text {
