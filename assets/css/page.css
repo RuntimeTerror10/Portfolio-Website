@@ -143,7 +143,7 @@ ul li {
 }
 @media (max-width: 510px) {
   .link-list li a {
-    font-size: 1.6rem;
+    font-size: 2.25rem;
   }
   .link-list {
     padding-left: 0;
