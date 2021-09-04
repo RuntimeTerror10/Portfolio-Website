@@ -96,7 +96,7 @@
 .social-container {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 30px;
   opacity: 0;
   transition: 0.25s ease-in-out;
@@ -270,5 +270,10 @@
   }
   .emoji {
     font-size: 1.2rem;
+  }
+}
+@media (max-width: 385px) {
+  .social-container {
+    margin-top: 10px;
   }
 }
