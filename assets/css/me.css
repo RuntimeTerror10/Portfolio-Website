@@ -118,6 +118,11 @@
 .link-svg {
   fill: #fff;
 }
+@media (max-width: 980px) {
+  .about-text {
+    font-size: 1.45rem;
+  }
+}
 @media (max-width: 768px) {
   #art4 {
     width: 280px;
@@ -251,7 +256,7 @@
       136px 170px #080503;
   }
   .about-me-container {
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .about-text {
     font-size: 1.1rem;
