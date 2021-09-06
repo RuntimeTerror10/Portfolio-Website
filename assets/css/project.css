@@ -50,6 +50,8 @@
 }
 .project-links-container {
   margin: 15px 5px;
+  display: flex;
+  justify-content: center;
 }
 .project-link {
   text-decoration: none;
