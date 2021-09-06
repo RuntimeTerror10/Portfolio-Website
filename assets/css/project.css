@@ -1,19 +1,19 @@
 .all-project-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 75px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 65px;
   padding: 25px 0;
 }
 .project-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 10px;
+  margin: 20px 10px;
   padding: 10px 0;
   border: 3px solid var(--sec-color);
   border-radius: 10px;
-  box-shadow: 8px 8px 13px rgba(129, 129, 129, 0.521);
 }
 .project-logo {
   border-radius: 10px;
@@ -23,6 +23,9 @@
 .about-project-container {
   align-self: center;
   padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .project-name {
   color: var(--sec-color);
@@ -36,7 +39,26 @@
   font-family: "Roboto Medium";
   font-size: 1.35rem;
   text-align: center;
-  margin-bottom: 10px;
+  max-width: 450px;
+  margin: 10px;
+}
+.project-links-container {
+  margin: 15px 5px;
+}
+.project-link {
+  text-decoration: none;
+  color: var(--sec-color);
+  font-family: "Roboto Medium";
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 2px solid var(--sec-color);
+  border-radius: 8px;
+  transition: 0.25s ease-in-out;
+}
+.project-link:hover {
+  background-color: var(--sec-color);
+  color: var(--prim-color);
 }
 @media (max-width: 556px) {
   .project-name {
@@ -46,12 +68,16 @@
     font-size: 1.2rem;
   }
 }
+
 @media (max-width: 432px) {
   .project-name {
     font-size: 1.5rem;
   }
   .about-project {
     font-size: 1.1rem;
+  }
+  .project-link {
+    font-size: 1rem;
   }
 }
 @media (max-width: 380px) {
