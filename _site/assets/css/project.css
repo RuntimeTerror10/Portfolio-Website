@@ -91,16 +91,6 @@
   }
 }
 
-@media (max-width: 572px) {
-  .right-align {
-    align-self: unset;
-    margin-left: 0;
-  }
-  .left-align {
-    align-self: unset;
-    margin-right: 0;
-  }
-}
 @media (max-width: 432px) {
   .project-name {
     font-size: 1.5rem;
