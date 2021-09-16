@@ -44,12 +44,7 @@
   align-items: center;
   transition: 0.25s ease-in-out;
 }
-.desktop-only {
-  color: var(--sec-color);
-  font-size: 1.1rem;
-  font-family: "Roboto";
-  margin: 5px;
-}
+
 .project-name {
   color: var(--sec-color);
   font-size: 2.2rem;
@@ -86,6 +81,7 @@
   background-color: var(--sec-color);
   color: var(--prim-color);
 }
+
 @media (max-width: 556px) {
   .project-name {
     font-size: 1.8rem;
@@ -94,7 +90,30 @@
     font-size: 1.2rem;
   }
 }
-
+@media (max-width: 1029px) {
+  .all-project-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-align {
+    align-self: flex-start;
+    margin-left: 40px;
+  }
+  .left-align {
+    align-self: flex-end;
+    margin-right: 40px;
+  }
+}
+@media (max-width: 572px) {
+  .right-align {
+    align-self: unset;
+    margin-left: 0;
+  }
+  .left-align {
+    align-self: unset;
+    margin-right: 0;
+  }
+}
 @media (max-width: 432px) {
   .project-name {
     font-size: 1.5rem;
