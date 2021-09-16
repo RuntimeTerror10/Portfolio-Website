@@ -18,7 +18,10 @@
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.55);
   transition: 0.25s ease-in-out;
 }
-
+.project-container:nth-child(3),
+.project-container:nth-child(4) {
+  margin-top: 45px;
+}
 .project-container:hover .project-logo {
   transform: scale(1.2);
 }
@@ -101,6 +104,15 @@
   }
   .project-link {
     font-size: 1rem;
+  }
+  .all-project-container {
+    margin-top: 90px;
+  }
+  .project-logo {
+    transform: scale(1);
+  }
+  .project-container:hover .project-logo {
+    transform: scale(1.1);
   }
 }
 @media (max-width: 380px) {
