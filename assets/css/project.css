@@ -90,20 +90,7 @@
     font-size: 1.2rem;
   }
 }
-@media (max-width: 1029px) {
-  .all-project-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .right-align {
-    align-self: flex-start;
-    margin-left: 40px;
-  }
-  .left-align {
-    align-self: flex-end;
-    margin-right: 40px;
-  }
-}
+
 @media (max-width: 572px) {
   .right-align {
     align-self: unset;
