@@ -3,7 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 90px;
+  margin-top: 110px;
   padding: 25px 0;
 }
 .project-container {
@@ -80,6 +80,11 @@
   color: var(--prim-color);
 }
 
+@media (max-width: 768px) {
+  .about-project {
+    max-width: 450px;
+  }
+}
 @media (max-width: 556px) {
   .project-name {
     font-size: 1.8rem;
@@ -90,9 +95,6 @@
 }
 
 @media (max-width: 432px) {
-  .project-name {
-    font-size: 1.5rem;
-  }
   .about-project {
     font-size: 1.1rem;
   }
@@ -100,7 +102,7 @@
     font-size: 1rem;
   }
   .all-project-container {
-    margin-top: 90px;
+    margin-top: 50px;
   }
   .project-logo {
     transform: scale(1);
