@@ -81,7 +81,6 @@
   background-color: var(--sec-color);
   color: var(--prim-color);
 }
-
 @media (max-width: 556px) {
   .project-name {
     font-size: 1.8rem;
