@@ -3,8 +3,17 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 90px;
   padding: 25px 0;
+}
+.project-title {
+  font-size: 3.2rem;
+  border-radius: 5px;
+  padding: 0.1em 0.1em;
+  letter-spacing: 0.5mm;
+  margin-top: 100px;
+  color: var(--sec-color);
+  text-align: center;
+  font-family: "Fira Sans Bold";
 }
 .project-container {
   display: flex;
