@@ -5,17 +5,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parth :)</title>
-    <link rel="icon" 
+     <link rel="icon" 
       type="image/png" 
       href="../assets/tab-icon.png">
+       <link rel="stylesheet" href="/assets/css/comm.css"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="/assets/css/comm.css">
-    <link rel="stylesheet" href="/assets/css/home.css">
+     <link rel="stylesheet" href="/assets/css/home.css">
     <link rel="stylesheet" href="/assets/css/textAnim.css">
+    <link rel="stylesheet" href="/assets/css/page.css"/>
+    <link rel="stylesheet" href="/assets/css/me.css"/>
+    <link rel="stylesheet" href="/assets/css/project.css"/>
   </head>
-  <body data-barba ="wrapper">
-  <main >
- <!-- <nav class="nav">
+  <body>
+    <div class="container" data-barba ="wrapper">
+      <div class="nav-container">     
+      <nav class="nav">
 <ul class="link-list">
     
       <li><a class="remove-text-decoration nav-link retro-font-style" href="/">Home</a></li>
@@ -30,9 +34,14 @@
     
   
 </ul>
-</nav> -->
-    
-<div class="container">
+</nav>
+        <div class="menu-btn">
+            <div class="menu-btn-burger"></div>
+        </div>
+      </div>
+      <main data-barba="container" data-barba-namespace="home">
+        
+<div class="index-container">
     <div id="loader"></div>
   <div class="header-container">
     <div data-aos="zoom-in" class="avatar-container">
@@ -51,24 +60,22 @@
         Welcome to my little space!!
       </p>
 </div>
-
-    <a href="/me" class="btn">Know more</a>
   </div>
 </div>
 
- </main>
+      </main> 
+    </div>
   </body>
-    <script src="/scripts/pageLoader.js"></script>
+  <script src="/scripts/pageLoader.js"></script>
+  <script src="/scripts/avatar-speaking.js"></script>
+  <script src="../scripts/menu.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
-  <script src="/scripts/avatar-speaking.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
   <script src="https://unpkg.com/@barba/core"></script>
-
-<!-- jsdelivr -->
-<script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
   <script type="module" src="/scripts/barbaTransitions.js"></script>
 </html>
 
