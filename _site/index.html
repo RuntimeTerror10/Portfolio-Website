@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="/assets/css/comm.css">
     <link rel="stylesheet" href="/assets/css/home.css">
+    <link rel="stylesheet" href="/assets/css/textAnim.css">
   </head>
   <body>
  <!--  <div class="nav-title-container">
@@ -32,62 +33,36 @@
 </nav> -->
     
 <div class="container">
+    <div id="loader"></div>
   <div class="header-container">
     <div data-aos="zoom-in" class="avatar-container">
       <div id="art"></div>
       <div id="art2" class="speaking-animation"></div>
       <div id="art3"></div>
     </div>
-    <div class="avatar-text">
-      <div class="type"></div>
-      <div class="type2"></div>
-      <div class="type3"></div>
-    </div>
+    <div class="avatar-text-container">
+      <p class="avatar-text">
+       Hi, I'm Parth
+      </p>
+      <p class="avatar-text">
+        A Front-end Developer
+      </p>
+      <p class="avatar-text">
+        Welcome to my little space!!
+      </p>
+</div>
+
     <a href="/me" class="btn">Know more</a>
   </div>
 </div>
 
-     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ 
+  <script src="/scripts/pageLoader.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="/scripts/avatar-speaking.js"></script>
-  <script>
-  var typed1 = new Typed(".type", {
-    strings: [
-      "Hi, I'm Parth",
-    ],
-    startDelay:1000,
-    typeSpeed: 60,
-    backspeed: 0,
-    smartBackspace: false,
-    loop: false,
-    showCursor: false,
-  });
-    var typed2 = new Typed(".type2", {
-    strings: [
-       "A Front-end Developer"
-    ],
-    startDelay: 2500,
-    typeSpeed: 60,
-    backspeed: 0,
-    smartBackspace: false,
-    loop: false,
-    showCursor: false,
-  });
-      var typed3 = new Typed(".type3", {
-    strings: [
-      "Welcome to my little space!!"
-    ],
-     startDelay: 4600,
-    typeSpeed: 60,
-    backspeed: 0,
-    smartBackspace: false,
-    loop: false,
-    showCursor: false,
-  });
-</script>
+  <script src="/scripts/avatar-speaking.js"></script>
   </body>
 </html>
 
