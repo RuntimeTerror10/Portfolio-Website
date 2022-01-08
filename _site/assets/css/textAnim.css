@@ -113,3 +113,15 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 535px) {
+  .avatar-text-container .avatar-text {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .avatar-text-container .avatar-text {
+    font-size: 1.7rem;
+  }
+}
