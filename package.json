@@ -21,6 +21,7 @@
     "@11ty/eleventy": "^0.12.1"
   },
   "dependencies": {
+    "@barba/core": "^2.9.7",
     "typed.js": "^2.0.12"
   }
 }

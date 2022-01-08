@@ -1,5 +1,5 @@
 :root {
-  --prim-color: #1c1c1f;
+  --prim-color: #0e182a;
   --sec-color: rgb(216, 216, 216);
 }
 
@@ -32,7 +32,7 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-  background-color: #1c1c1f;
+  background-color: var(--prim-color);
 }
 .font-style {
   font-family: "Fira Sans";
