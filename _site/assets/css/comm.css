@@ -2,7 +2,10 @@
   --prim-color: #0e182a;
   --sec-color: rgb(216, 216, 216);
 }
-
+@font-face {
+  font-family: "RoadRage";
+  src: url("/assets/Roadrage-Regular.ttf") format("truetype");
+}
 @font-face {
   font-family: "Fira Sans";
   src: url("/assets/FiraSans-Regular.ttf") format("truetype");
