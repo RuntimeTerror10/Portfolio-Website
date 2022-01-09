@@ -18,3 +18,16 @@ menuBtn.addEventListener("click", () => {
     };
   }
 });
+nav.childNodes.forEach((node) => {
+  node.addEventListener("click", () => {
+    if (menuOpen) {
+      menuBtn.classList.remove("open");
+      nav.style.top = 100 + "%";
+      nav.style.transform = "scale(-1)";
+      menuOpen = false;
+      nav.ontransitionend = () => {
+        nav.style.transform = "scale(1)";
+      };
+    }
+  });
+});
