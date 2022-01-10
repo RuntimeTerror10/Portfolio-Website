@@ -7,14 +7,6 @@
   src: url("/assets/Roadrage-Regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Fira Sans";
-  src: url("/assets/FiraSans-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Fira Sans Bold";
-  src: url("/assets/FiraSans-Bold.ttf") format("truetype");
-}
-@font-face {
   font-family: "Roboto";
   src: url("/assets/Roboto-Regular.ttf") format("truetype");
 }

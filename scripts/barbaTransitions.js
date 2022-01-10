@@ -7,11 +7,7 @@ barba.init({
           scale: 0,
         });
       },
-      enter(data) {
-        return gsap.from(data.next.container, {
-          scale: 0,
-        });
-      },
+      enter(data) {},
     },
   ],
 });
