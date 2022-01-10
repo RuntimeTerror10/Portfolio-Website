@@ -6,28 +6,25 @@ menuBtn.addEventListener("click", () => {
   if (!menuOpen) {
     menuBtn.classList.add("open");
     nav.style.top = 0;
-    nav.style.transform = "scale(1)";
+    nav.style.left = 0;
+    nav.style.borderRadius = 0;
     menuOpen = true;
   } else {
     menuBtn.classList.remove("open");
-    nav.style.top = 100 + "%";
-    nav.style.transform = "scale(-1)";
+    nav.style.top = "-100%";
+    nav.style.left = "200%";
+    nav.style.borderRadius = "50%";
     menuOpen = false;
-    nav.ontransitionend = () => {
-      nav.style.transform = "scale(1)";
-    };
   }
 });
 nav.childNodes.forEach((node) => {
   node.addEventListener("click", () => {
     if (menuOpen) {
       menuBtn.classList.remove("open");
-      nav.style.top = 100 + "%";
-      nav.style.transform = "scale(-1)";
+      nav.style.top = "-100%";
+      nav.style.left = "200%";
+      nav.style.borderRadius = "50%";
       menuOpen = false;
-      nav.ontransitionend = () => {
-        nav.style.transform = "scale(1)";
-      };
     }
   });
 });
