@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 25px 0;
+  min-height: 95vh;
   margin-bottom: 80px;
 }
 .project-title {
