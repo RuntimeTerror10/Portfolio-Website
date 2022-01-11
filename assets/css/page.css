@@ -24,6 +24,8 @@ ul li {
 }
 .container {
   padding: 5px;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .nav-container {
@@ -54,7 +56,7 @@ ul li {
 }
 
 .nav-link:not(.active):hover {
-  border-bottom: 3px dotted var(--sec-color);
+  border-bottom: 4px dotted var(--sec-color);
   transition: 0.15s ease-in-out;
 }
 
@@ -144,7 +146,6 @@ ul li {
   }
   .nav-link {
     font-size: 2.8rem;
-    color: var(--sec-color);
     margin: 0;
     letter-spacing: 0.4mm;
   }
@@ -161,8 +162,6 @@ ul li {
   border-radius: 5px;
   z-index: 10;
 }
-
-/* Track */
 
 @media (max-width: 510px) {
   .link-list li {

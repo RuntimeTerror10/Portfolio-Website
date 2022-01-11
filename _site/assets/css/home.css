@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 120px;
+  margin-top: 100px;
   transition: 0.25s ease-in-out;
 }
 #loader {
@@ -98,7 +98,7 @@
   animation-name: speak;
   animation-duration: 0.2s;
   animation-iteration-count: 24;
-  animation-delay: 3s;
+  animation-delay: 2.5s;
 }
 
 @keyframes speak {
