@@ -45,15 +45,21 @@ ul li {
 .nav-link {
   padding: 0.3em 0.5em;
   margin: 0 20px;
-  border-radius: 5px;
   transition: 0.2s ease-in-out;
   border-color: var(--sec-color);
-  transition: 0.25s ease-in-out;
+  transition: 0.35s ease-in-out;
 }
 .nav-link:last-child {
   margin-right: 0;
 }
-.nav-link:hover {
+
+.nav-link:not(.active):hover {
+  border-bottom: 3px dotted var(--sec-color);
+  transition: 0.15s ease-in-out;
+}
+
+.active {
+  border-radius: 5px;
   color: var(--prim-color);
   background: var(--sec-color);
 }
