@@ -103,8 +103,7 @@
   justify-content: center;
   transition: 0.25s ease-in-out;
   transform: scale(0.7);
-  height: 3.5rem;
-  margin-top: -3.5rem;
+  margin-top: -80px;
 }
 .link-svg {
   width: 40px;
