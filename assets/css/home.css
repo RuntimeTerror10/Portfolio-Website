@@ -98,7 +98,7 @@
   animation-name: speak;
   animation-duration: 0.2s;
   animation-iteration-count: 24;
-  animation-delay: 3s;
+  animation-delay: 3.5s;
 }
 
 @keyframes speak {
