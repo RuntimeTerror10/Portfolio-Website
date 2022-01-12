@@ -53,7 +53,7 @@
     192px 240px #080503, 24px 144px #080503, 24px 168px #080503,
     48px 168px #080503, 72px 168px #080503, 120px 168px #080503,
     144px 168px #080503, 168px 168px #080503, 216px 168px #080503,
-    240px 168px #080503, 264px 168px #adaaa7, 264px 144px #080503,
+    240px 168px #080503, 264px 168px #080503, 264px 144px #080503,
     72px 192px #080503, 120px 192px #080503, 168px 192px #080503,
     216px 192px #080503, 48px 144px #3e2718, 72px 144px #3e2718,
     72px 120px #3e2718, 72px 48px #3e2718, 72px 24px #3e2718, 48px 24px #3e2718,
@@ -65,12 +65,11 @@
 }
 .about-wrapper {
   width: 100%;
-  height: 95vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: -40px;
 }
 .about-me-container {
   width: 100%;
@@ -101,13 +100,12 @@
 .social-container {
   display: flex;
   justify-content: center;
+  margin-top: -60px;
   transition: 0.25s ease-in-out;
-  transform: scale(0.7);
-  margin-top: -80px;
 }
 .link-svg {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   margin: 0 20px;
   padding: 10px;
   border: 2px solid var(--sec-color);
@@ -196,9 +194,6 @@
   }
 }
 @media (max-width: 560px) {
-  .about-wrapper {
-    margin-top: -10px;
-  }
   #art4 {
     width: 238px;
     height: 238px;
