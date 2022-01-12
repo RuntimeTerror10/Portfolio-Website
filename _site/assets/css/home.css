@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 95vh;
+  min-height: 100vh;
   transition: 0.25s ease-in-out;
 }
 #loader {
@@ -98,7 +98,7 @@
   animation-name: speak;
   animation-duration: 0.2s;
   animation-iteration-count: 24;
-  animation-delay: 2.5s;
+  animation-delay: 3s;
 }
 
 @keyframes speak {
@@ -321,9 +321,6 @@
   }
 }
 @media (max-width: 465px) {
-  .container {
-    height: 92vh;
-  }
   #art {
     width: 168px;
     height: 168px;

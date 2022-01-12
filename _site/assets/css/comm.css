@@ -35,3 +35,10 @@ body {
 .remove-text-decoration {
   text-decoration: none;
 }
+.type,
+.type2,
+.type3 {
+  color: white;
+  font-family: "Fira Sans";
+  font-size: 2rem;
+}
