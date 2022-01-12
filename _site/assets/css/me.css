@@ -194,9 +194,6 @@
   }
 }
 @media (max-width: 560px) {
-  .about-wrapper {
-    margin-top: -10px;
-  }
   #art4 {
     width: 238px;
     height: 238px;
