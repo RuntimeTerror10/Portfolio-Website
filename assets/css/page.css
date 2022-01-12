@@ -22,9 +22,6 @@ ul li {
   display: flex;
   align-self: center;
 }
-.container {
-  padding: 5px;
-}
 
 .nav-container {
   display: flex;
@@ -144,7 +141,6 @@ ul li {
   }
   .nav-link {
     font-size: 2.8rem;
-    color: var(--sec-color);
     margin: 0;
     letter-spacing: 0.4mm;
   }

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 120px;
+  min-height: 100vh;
   transition: 0.25s ease-in-out;
 }
 #loader {
