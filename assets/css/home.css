@@ -185,6 +185,9 @@
 }
 
 @media (max-width: 768px) {
+  .index-container {
+    min-height: 95vh;
+  }
   #art {
     width: 238px;
     height: 238px;

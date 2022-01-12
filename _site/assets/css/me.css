@@ -144,6 +144,9 @@
   }
 }
 @media (max-width: 768px) {
+  .about-wrapper {
+    min-height: 95vh;
+  }
   #art4 {
     width: 280px;
     height: 280px;
