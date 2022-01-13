@@ -73,19 +73,19 @@
       <main class="main-container" data-barba="container" data-barba-namespace="home">
         
 <div class="contact-wrapper">
-    <h1 class="contact-header" data-aos="zoom-in">Let's get in touch ..</h1>
-    <form action="https://send.pageclip.co/M4guBV1fGN6rQZ803iFmSy2p8L1atWWK" class="pageclip-form contact-form" method="post" data-aos="zoom-in">
+      <h1 class="contact-header" data-aos="zoom-in">Let's get in touch ..</h1>
+ <form action="https://send.pageclip.co/M4guBV1fGN6rQZ803iFmSy2p8L1atWWK" class="pageclip-form contact-form" method="post" data-aos="zoom-in">
   <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
   <div class="input-wrapper">
   <div class="input-area">
     <div class="sender-details">
         <div class="form-component name-component">
             <label for="name" class="input-label">Name</label>
-            <input class="user-input name" type="text" id="name" name="name" placeholder="Your name" />
+            <input class="user-input name" type="text" id="name" name="name" placeholder="Your name"  required/>
         </div>
         <div class="form-component email-component">
-            <label for="email" class="input-label">Email</label>
-            <input class="user-input email" type="email" id="email" name="email" placeholder="Your email" />
+            <label for="email" class="input-label"  >Email</label>
+            <input class="user-input email" type="email" id="email" name="email" placeholder="Your email" required/>
         </div>
     </div>
         <div class="form-component message-component">
@@ -101,7 +101,6 @@
     </button>
    </div>
     </form>
-
 </div>
       </main>
         <div class="social-container" >
@@ -131,6 +130,7 @@
       /></svg
   ></a>
 </div>
+         <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
     </div>
   </body>
   <script src="/scripts/pageLoader.js"></script>
@@ -143,7 +143,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
   <script src="https://unpkg.com/@barba/core"></script>
   <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
-  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+ 
   <script type="module" src="/scripts/barbaTransitions.js"></script>
 </html>
 
