@@ -16,6 +16,8 @@
   color: var(--prim-color);
   width: 100%;
   padding: 20px 0;
+  width: 80%;
+  border-radius: 2px 70px 2px 70px;
   font-family: "Roboto Medium";
 }
 .input-label {
@@ -92,6 +94,12 @@
 .submit-btn:active {
   transform: scale(0.9);
 }
+.submit-btn span {
+  display: flex;
+}
+.send-svg {
+  margin-left: 5px;
+}
 
 @media (max-width: 670px) {
   .contact-form {
@@ -132,6 +140,6 @@
     border-radius: 2px 20px 2px 20px;
   }
   .input-area {
-    width: 80%;
+    width: 85%;
   }
 }
