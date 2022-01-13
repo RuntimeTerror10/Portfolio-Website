@@ -15,7 +15,7 @@
   background: #f3f3f3;
   color: var(--prim-color);
   width: 70%;
-  border-radius: 5px 100px 5px 100px;
+  border-radius: 40px;
   padding: 20px 0;
   font-family: "Roboto Medium";
 }
@@ -99,11 +99,10 @@
 }
 @media (max-width: 530px) {
   .contact-header {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
   }
-  .contact-form {
+  .input-area {
     width: 90%;
-    border-radius: 5px 70px 5px 70px;
   }
   .submit-btn {
     padding: 10px 50px;
@@ -122,13 +121,12 @@
     font-size: 1.2rem;
   }
 }
-@media (max-width: 440px) {
+@media (max-width: 466px) {
   .contact-form {
     width: 90%;
     border-radius: 2px 20px 2px 20px;
   }
-}
-@media (max-width: 440px) {
-  .contact-form {
+  .input-area {
+    width: 80%;
   }
 }
