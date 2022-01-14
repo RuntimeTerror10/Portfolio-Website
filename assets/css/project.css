@@ -1,14 +1,113 @@
+.my-projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 130px;
+}
+.project-card {
+  width: 350px;
+  height: 380px;
+  perspective: 1000px;
+  transition: 0.25s ease-in-out;
+  border-radius: 8px;
+  margin: 40px 25px;
+}
+
+.project-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 4px solid var(--sec-color);
+  border-radius: 8px;
+}
+.image-container {
+  overflow: hidden;
+  height: 300px;
+}
+.project-image {
+  width: 350px;
+  height: 300px;
+  overflow: hidden;
+  z-index: -1;
+  transition: 0.25s ease-in-out;
+}
+.project-card:hover .project-image {
+  transform: scale(1.2);
+}
+
+.project-card-front,
+.project-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 8px;
+}
+
+.project-card-front {
+  background: rgba(6, 7, 32, 0.603);
+}
+
+.project-card-back {
+  background-color: var(--sec-color);
+  color: var(--prim-color);
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 4px;
+}
+.read-container {
+  padding: 15px 10px;
+}
+.read-btn {
+  padding: 10px;
+  border: 2px solid var(--sec-color);
+  font-size: 1.1rem;
+  color: var(--sec-color);
+  background: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+  font-family: "Roboto Medium";
+}
+.read-btn:hover {
+  background: var(--sec-color);
+  color: var(--prim-color);
+}
+.back-btn {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: var(--prim-color);
+  background: none;
+  font-family: "Roboto Medium";
+  font-size: 1.1rem;
+  padding: 2px;
+  border: 2px solid var(--prim-color);
+  border-radius: 5px;
+  transition: 0.25s ease-in-out;
+  cursor: pointer;
+  z-index: 3;
+}
+.back-btn:hover {
+  background: var(--prim-color);
+  color: var(--sec-color);
+}
+
+.flip-card {
+  transform: rotateY(180deg);
+}
 .project-wrapper {
   min-height: 100vh;
 }
-.all-project-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 25px 0;
-  margin-bottom: 130px;
-}
+
 .project-title {
   font-size: 3.5rem;
   letter-spacing: 0.5mm;
@@ -18,44 +117,7 @@
   text-align: center;
   font-family: "RoadRage";
 }
-.project-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 40px 10px;
-  padding: 10px 0;
-  border-radius: 20px;
-  border: 2px dashed var(--sec-color);
-  background: #0e182a;
-  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.55);
-  transition: 0.2s ease-in-out;
-}
-.project-container:nth-child(3),
-.project-container:nth-child(4) {
-  margin-top: 45px;
-}
-.project-container:hover .project-logo {
-  transform: scale(1.12);
-}
-.project-container:not(:hover) {
-  opacity: 0.85;
-}
-.project-container:hover {
-  border-style: solid;
-  border-width: 2px;
-  opacity: 1;
-}
-.project-container:hover .project-logo {
-  box-shadow: 5px 5px 15px 10px rgba(0, 0, 0, 0.55);
-}
 
-.project-logo {
-  border-radius: 10px;
-  transform: scale(1);
-  margin-top: -50px;
-  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.55);
-  transition: 0.25s ease-in-out;
-}
 .about-project-container {
   align-self: center;
   display: flex;
@@ -65,39 +127,38 @@
 }
 
 .project-name {
-  color: var(--sec-color);
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: "Roboto Bold";
   text-align: center;
   margin: 0 10px;
   margin-top: 30px;
 }
 .about-project {
-  color: var(--sec-color);
+  color: var(--prim-color);
   font-family: "Roboto Medium";
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   text-align: center;
-  max-width: 385px;
 }
 .project-links-container {
-  margin: 15px 5px;
+  margin: 15px 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .project-link {
   text-decoration: none;
-  color: var(--sec-color);
+  color: var(--prim-color);
   font-family: "Roboto Medium";
   font-size: 1.2rem;
-  padding: 10px 15px;
-  margin: 0 5px;
-  border: 4px solid var(--sec-color);
-  border-radius: 8px;
+  padding: 8px 30px;
+  margin: 10px 0;
+  border: 4px solid var(--prim-color);
+  border-radius: 5px;
   transition: 0.25s ease-in-out;
 }
 .project-link:hover {
-  background-color: var(--sec-color);
-  color: var(--prim-color);
+  background-color: var(--prim-color);
+  color: var(--sec-color);
 }
 .arrow-svg {
   position: relative;
@@ -119,11 +180,62 @@
   }
 }
 
-@media (max-width: 768px) {
-  .about-project {
-    max-width: 450px;
+@media (max-width: 900px) {
+  .my-projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 130px;
+  }
+  .project-card {
+    width: 270px;
+    height: 300px;
+    perspective: 1000px;
+    transition: 0.25s ease-in-out;
+    border-radius: 8px;
+    margin: 40px 20px;
+  }
+  .image-container {
+    overflow: hidden;
+    height: 230px;
+  }
+  .project-image {
+    width: 270px;
+    height: 230px;
+    overflow: hidden;
+    z-index: -1;
+    transition: 0.25s ease-in-out;
+  }
+  .read-container {
+    padding: 15px 10px;
   }
 }
+
+@media (max-width: 620px) {
+  .project-card {
+    width: 330px;
+    height: 340px;
+    perspective: 1000px;
+    transition: 0.25s ease-in-out;
+    border-radius: 8px;
+    margin: 30px 10px;
+  }
+  .image-container {
+    overflow: hidden;
+    height: 260px;
+  }
+  .project-image {
+    width: 330px;
+    height: 300px;
+    overflow: hidden;
+    z-index: -1;
+    transition: 0.25s ease-in-out;
+  }
+  .read-container {
+    padding: 20px 10px;
+  }
+}
+
 @media (max-width: 556px) {
   .project-name {
     font-size: 1.8rem;
@@ -152,6 +264,34 @@
   }
   .project-container:hover .project-logo {
     transform: scale(1.09);
+  }
+  .my-projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 130px;
+  }
+  .project-card {
+    width: 270px;
+    height: 300px;
+    perspective: 1000px;
+    transition: 0.25s ease-in-out;
+    border-radius: 8px;
+    margin: 40px 20px;
+  }
+  .image-container {
+    overflow: hidden;
+    height: 230px;
+  }
+  .project-image {
+    width: 270px;
+    height: 230px;
+    overflow: hidden;
+    z-index: -1;
+    transition: 0.25s ease-in-out;
+  }
+  .read-container {
+    padding: 15px 10px;
   }
 }
 @media (max-width: 380px) {
