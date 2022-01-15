@@ -5,7 +5,7 @@ active.classList.add("active");
 
 navLinks.forEach((link) => {
   link.addEventListener("click", () => {
-    if(link.innerText=="Projects"){
+    if (link.innerText == "Projects") {
       initProjectCardFlip();
     }
     navLinks.forEach((href) => {
@@ -15,26 +15,21 @@ navLinks.forEach((link) => {
   });
 });
 
-function initProjectCardFlip(){
+function initProjectCardFlip() {
   setTimeout(() => {
-  
-  const readBtn = document.querySelectorAll(".read-btn");
-  const cardInner = document.querySelector(".project-card-inner");
-  const backBtn = document.querySelectorAll(".back-btn");
+    const readBtn = document.querySelectorAll(".read-btn");
+    const backBtn = document.querySelectorAll(".back-btn");
 
-
-
-  readBtn.forEach((btn) => {
-    btn.addEventListener("click", function () {
-      btn.parentNode.parentNode.parentNode.classList.add("flip-card");
+    readBtn.forEach((btn) => {
+      btn.addEventListener("click", function () {
+        btn.parentNode.parentNode.parentNode.classList.add("flip-card");
+      });
     });
-  });
 
-  backBtn.forEach((btn) => {
-    btn.addEventListener("click", function () {
-      btn.parentNode.parentNode.classList.remove("flip-card");
+    backBtn.forEach((btn) => {
+      btn.addEventListener("click", function () {
+        btn.parentNode.parentNode.classList.remove("flip-card");
+      });
     });
-  });
-
   }, 2000);
 }
