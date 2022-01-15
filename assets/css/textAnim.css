@@ -124,6 +124,11 @@
 
 @media (max-width: 440px) {
   .avatar-text-container .avatar-text {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 380px) {
+  .avatar-text-container .avatar-text {
+    font-size: 1.4rem;
   }
 }
