@@ -11,7 +11,7 @@
   white-space: nowrap;
   overflow: hidden;
   margin: 20px 0;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
   transition: 0.25s ease-in-out;
 }
 .avatar-text-container .avatar-text:nth-child(1) {
