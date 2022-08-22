@@ -6,7 +6,7 @@
 }
 .project-card {
   width: 350px;
-  height: 380px;
+  height: 400px;
   perspective: 1000px;
   transition: 0.25s ease-in-out;
   border-radius: 8px;
@@ -27,6 +27,15 @@
 .image-container {
   overflow: hidden;
   height: 300px;
+}
+.tag {
+  font-size: 1.2rem;
+  padding: 0.1rem;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--sec-color);
+  color: var(--main-color);
+  border-radius: 5px;
+  margin-bottom: 5px;
 }
 .project-image {
   width: 350px;
