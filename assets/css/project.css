@@ -198,7 +198,7 @@
   }
   .project-card {
     width: 270px;
-    height: 300px;
+    height: 340px;
     perspective: 1000px;
     transition: 0.25s ease-in-out;
     border-radius: 8px;
@@ -223,7 +223,7 @@
 @media (max-width: 620px) {
   .project-card {
     width: 330px;
-    height: 340px;
+    height: 380px;
     perspective: 1000px;
     transition: 0.25s ease-in-out;
     border-radius: 8px;
@@ -279,7 +279,7 @@
   }
   .project-card {
     width: 270px;
-    height: 300px;
+    height: 330px;
     perspective: 1000px;
     transition: 0.25s ease-in-out;
     border-radius: 8px;

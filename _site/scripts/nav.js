@@ -2,6 +2,7 @@ const navLinks = document.querySelectorAll(".nav-link");
 const active = navLinks[0];
 
 active.classList.add("active");
+initProjectCardFlip();
 
 navLinks.forEach((link) => {
   link.addEventListener("click", () => {
